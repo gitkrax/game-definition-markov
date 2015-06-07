@@ -1,0 +1,6 @@
+{
+    "<start>": "<firstname> <middleletter> <lastname>",
+    "<firstname>": "Mark | Bob | Sara | Rebecca",
+    "<middleletter>": "G. | H. | S. | C.",
+    "<lastname>": "Imaginary | Fabula | Smith | Ludo"
+}

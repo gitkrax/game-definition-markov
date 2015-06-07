@@ -1,0 +1,21 @@
+<html>
+    <link rel="stylesheet" href="tufte.css"/>
+    <script src="lib/jquery-2.1.4.min.js"></script>
+    <script src="lib/rita.js"></script>
+    <script src="main.js"></script>
+    <script>
+        window.onload = function() {
+            $('#content').text(loadText());
+        };
+    </script>
+    <body>
+        <h1 id="title"></h1>
+        <p id="author"></p>
+        <h2>Abstract</h2>
+        <p id="abstract"></p>
+        <h2 id="intro"></h2>
+        <p id="content"></p>
+        <h2>References</h2>
+        <p id="references"></p>
+    </body>
+</html>
