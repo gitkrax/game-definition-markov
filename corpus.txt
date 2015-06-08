@@ -81,8 +81,6 @@ The process of definition is not neutral, and always carries with itself questio
 The nominal definitions this article argues for are not completely unproblematic. They cannot be meaningfully said to reach an end, since the definition may continually need to be revisited. They may also be hard to compare, since they cannot be evaluated outside the discourse they are used in.
 Games are a sociocultural phenomenon and, therefore, they should be defined and redefined in a hermeneutic circle that enhances our understanding of them. This process of redefining will tell us valuable things about the discourse of games at any given moment. It will also highlight some aspects of games, some of which may not previously have been discussed, therefore providing more things for scholars to study. This may provide a way out of the established discourses that have become so self-evident that we are no longer able to see them clearly (Stenros and Waern, 2011). A similar conclusion is reached by Ellis (1973, p. 22) in discussing play:
 The perplexing problem of how to define play will only be resolved by continually regenerating new definitions that fit current concepts of play behavior.
-Acknowledgements
-I’d like to thank Antti Heikinheimo and Veli-Matti Karhulahti for their useful comments and J. Tuomas Harviainen and Raine Koskimaa for their guidance. I’m also indebted to Jaakko Stenros for his discussion of definitions at CEGSS and the anonymous reviewers for their constructive feedback.
 
 This paper proposes a definition of games. I describe the classic game model, a list of six features that are necessary and sufficient for something to be a game. The definition shows games to be transmedial: There is no single game medium, but rather a number of game media, each with its own strengths. The computer is simply the latest game medium to emerge. While computer games1 are therefore part of the broader area of games, they have in many cases evolved beyond the classic game model.
 Introduction
@@ -94,193 +92,41 @@ While many definitions of games have been attempted, my goal here is to create a
 
 As demonstrated by Bernard Suits (1978), the simplest way to test a game definition is to test it for being either too broad or too narrow. To set up the test before the definition, I will assume that Quake III, EverQuest, checkers, chess, soccer, tennis, Hearts, Solitaire and pinball are games; that open-ended simulation games such as Sims and Sim City, gambling, and games of pure chance are borderline cases; and that traffic, war, hypertext fiction, free-form play and ring-a-ring-a-roses are not games. The definition should be able to tell what falls inside from what falls outside the set of games, but also to explain in detail why and how some things are on the border of the definition. The existence of borderline cases is not a problem for the definition as long as we are able to understand why a specific game is a borderline case.
 
-Some previous definitions
 The method I am applying here is to go through seven previous definitions of games, pick out their similarities and point to any modifications or clarifications needed for our current purpose. But before going over the previous definitions, we should note that the definitions do not necessarily try to describe the same aspect of games: Some focus purely on the game as such, some focus purely on the activity of playing a game. Additionally, it turns out that many things can be expressed in different ways. When one writer mentions goals and another mentions conflict, it is possible to translate between them: The notion of conflict entails (conflicting) goals; the notion of goals seems to entail the possibility of not reaching the goal, and thereby also a conflict. We will get back to this, but let us simply list seven game definitions which we will then categorize afterwards:
-
-
-
-Source
-
-Definition
-
-Johan Huizinga 1950, p.13.
 
 [...] a free activity standing quite consciously outside ”ordinary” life as being ”not serious”, but at the same time absorbing the player intensely and utterly. It is an activity connected with no material interest, and no profit can be gained by it. It proceeds within its own proper boundaries of time and space according to fixed rules and in an orderly manner. It promotes the formation of social groupings which tend to surround themselves with secrecy and to stress their difference from the common world by disguise or other means.
 
-Roger Caillois 1961, p.10-11.
-
 [...] an activity which is essentially: Free (voluntary), separate [in time and space], uncertain, unproductive, governed by rules, make-believe.
-
-Bernard Suits 1978, p. 34.
 
 To play a game is to engage in activity directed towards bringing about a specific state of affairs, using only means permitted by rules, where the rules prohibit more efficient in favor of less efficient means, and where such rules are accepted just because they make possible such activity.
 
-Avedon & Sutton Smith 1981, p.7.
-
 At its most elementary level then we can define game as an exercise of voluntary control systems in which there is an opposition between forces, confined by a procedure and rules in order to produce a disequilibrial outcome.
-
-Chris Crawford 1981, chapter 2.
 
 I perceive four common factors: representation ["a closed formal system that subjectively represents a subset of reality"], interaction, conflict, and safety ["the results of a game are always less harsh than the situations the game models"].
 
-David Kelley 1988, p.50.
-
 a game is a form of recreation constituted by a set of rules that specify an object to be attained and the permissible means of attaining it.
-
-Katie Salen & Eric Zimmerman 2003, p.96.
 
 A game is a system in which players engage in an artificial conflict, defined by rules, that results in a quantifiable outcome.
 
+There are probably more commonalities than differences in these definitions. But if we return to the idea that we want to look at games on three different levels, we can sort the points of the individual definitions according to what they describe. For example, "rules" describes games as a formal system. That a game is "outside ordinary life" describes the relation between the game and the rest of the world. But that a game has an "object to be obtained" describes the game as formal system and the relation between the player and the game. If we take "goals" and "conflict" to be different ways of expressing the same concept, this allows us to gather all the points of the definitions under ten headings:
 
-
-There are probably more commonalities than differences in these definitions. But if we return to the idea that we want to look at games on three different levels, we can sort the points of the individual definitions according to what they describe. For example, "rules" describes games as a formal system. That a game is "outside ordinary life" describes the relation between the game and the rest of the world. But that a game has an "object to be obtained" describes the game as formal system and the relation between the player and the game. If we take "goals" and "conflict" to be different ways of expressing the same concept, this allows us to gather all the points of the definitions under ten headings3:
-
-
-The game as formal system
-
-The player and the game
-
-The game and the rest of the world
-
-Other
-
-Rules
-Fixed rules (Huizinga)
-Rules (Caillois)
-Rules (Suits)
-Procedure & rules (Avedon & Sutton-Smith)
-Formal system (Crawford)
-Rules (Kelley)
-Rules (Salen & Zimmerman)
-
-
-
-
-
-Outcome
-Uncertain (Caillois)
-Disequilibrial outcome (Avedon & Sutton-Smith)
-Changing Course (Kelley)
-Quantifiable outcome (Zimmerman & Salen)
-
-
-
-
-
-"Goals"
-Bringing about a state of affairs (Suits)
-Opposition (Avedon & Sutton-Smith)
-Conflict (Crawford)
-Object to be obtained (Kelley)
-
-
-
-
-
-Interaction
-Interaction (Crawford)
-
-
-
-
-
-Goals, rules, and the world
-Artificial conflict (Zimmerman & Salen)
-
-
-
-
-
-"Separate"
-Outside ordinary life / proper boundaries (Huizinga)
-Separate (Caillois)
-No material interest (Huizinga)
-Unproductive (Caillois)
-
-
-
-
-
-"Not work"
-Free / voluntary (Caillois)
-Voluntary control systems (Avedon & Sutton-Smith)
-Recreation (Kelley)
-
-
-
-
-
-Less efficient means
-Less efficient means (Suits)
-
-
-
-
-
-Social groupings
-Promotes social groupings (Huizinga)
-
-
-
-
-
-Fiction
-Representation (Crawford)
-Make-believe (Caillois)
-Safety (Crawford)
-
-
-
-
-
- 
-
-The loose ends
-Fiction
 The issue of fiction in games is tricky since it depends much on the games we are looking at. For the time being, suffice to say that some games have a fictional element, but that it is not universal to games.
 
-The game and the player: A second look at goals
 The list of examples gives us two border case examples around the concept of goals: Sims and Sim City are often labeled games even if they do not have explicit goals. While the games' designer, Will Wright, claims that they are not games but toys (Costikyan), they are nevertheless often categorized as "computer games".
 
 The proposal here is to be more explicit about the player's relation to the game by splitting the concept of goals into three distinct components, namely: 1) Valorization of the possible outcomes: That some outcomes are described as positive, some as negative. 2) Player effort: That as a player you have to do something. 3) Attachment of the player to an aspect of the outcome. As a player you agree to be happy if you win the game, unhappy if you loose the game. This is part of what we may term the game contract and curiously happens even in a game of pure chance.
 
-Separate and unproductive: Negotiable consequences
-In the definition of Roger Caillois, games are both separate in time and space from the rest of the world and unproductive. It is fairly easy to find examples of games that transgress the first aspect: It is after all possible to play chess by mail, in which case the game overlaps daily life, both in the sense that the time span of the game overlaps a non-game part of life, and in the sense that it is possible to consider the moves one wants to play while going around one's daily business. Likewise, many net-based strategy games stretch over months or even years. The second feature, unproductive, is dubious if productivity can mean something other than the production of physical goods. Caillois' suggestion is that even gambling does not produce anything. From an economic viewpoint, this is problematic since gambling is in fact a huge industry. Let us note that it is possible to bet on the outcome of any game4, and that many people do make a living playing games.
+In the definition of Roger Caillois, games are both separate in time and space from the rest of the world and unproductive. It is fairly easy to find examples of games that transgress the first aspect: It is after all possible to play chess by mail, in which case the game overlaps daily life, both in the sense that the time span of the game overlaps a non-game part of life, and in the sense that it is possible to consider the moves one wants to play while going around one's daily business. Likewise, many net-based strategy games stretch over months or even years. The second feature, unproductive, is dubious if productivity can mean something other than the production of physical goods. Caillois' suggestion is that even gambling does not produce anything. From an economic viewpoint, this is problematic since gambling is in fact a huge industry. Let us note that it is possible to bet on the outcome of any game, and that many people do make a living playing games.
 
-Separation is a special issue in live action role-playing games, where the games may be played in spaces also used for "normal life". In these cases, specific descriptions have to be made as to what interactions are allowed between non-playing people and players.5
+Separation is a special issue in live action role-playing games, where the games may be played in spaces also used for "normal life". In these cases, specific descriptions have to be made as to what interactions are allowed between non-playing people and players.
 
 Taking a step back, we can see that the notion of separate and the notion of games being unproductive are quite similar in two respects, 1) both specify what interactions are possible (and allowed) between the game activity and the rest of the world and 2) both are clearly not perfect boundaries, but rather fuzzy areas under constant negotiation.
 
 When Caillois claims that a game played involuntarily is not a game, we need to make a distinction between a given game and a given playing of a game. All copies of Quake III do not suddenly cease to be games because someone is making money playing it. And since all games are potential targets of betting and of professional playing, I suggest that games are characterized by being activities with negotiable consequences: A specific playing of a game may have assigned consequences, but a game is a game because the consequences are optionally assignable on a per-play basis. That games carry a degree of separation from the rest of the world follows from their consequences being negotiable.
 
-A new definition: 6 game features
 The game definition I propose finally has 6 points: 1) Rules: Games are rule-based. 2) Variable, quantifiable outcome: Games have variable, quantifiable outcomes. 3) Value assigned to possible outcomes: That the different potential outcomes of the game are assigned different values, some being positive, some being negative. 4) Player effort: That the player invests effort in order to influence the outcome. (I.e. games are challenging.) 5) Player attached to outcome: That the players are attached to the outcomes of the game in the sense that a player will be the winner and "happy" if a positive outcome happens, and loser and "unhappy" if a negative outcome happens. 6) Negotiable consequences: The same game [set of rules] can be played with or without real-life consequences.
 
-
-
 A game is a rule-based formal system with a variable and quantifiable outcome, where different outcomes are assigned different values, the player exerts effort in order to influence the outcome, the player feels attached to the outcome, and the consequences of the activity are optional and negotiable.
-
- 
-
-The game as formal system	The player and the game	The game and the rest of the world
-Rules
-
-
-
-Variable and quantifiable outcome
-
-
-
-Valorization of outcomes
-
-
-
-Player effort
-
-
-
-Player attached to outcome
-Negotiable consequences
 
 These points are not on the same level, rather:
 
@@ -291,13 +137,12 @@ These points are not on the same level, rather:
 Each point merits further elaboration:
 
 1. Fixed rules
-Games have rules.6 The rules of games have to be sufficiently well defined that they can either be programmed on a computer or sufficiently well defined that you do not have to argue about them every time you play. In fact, the playing of a non-electronic game is an activity that in itself involves trying to remove any unclearness in the game rules: If there is disagreement about the rules of the game, the game is stopped until the disagreement has been solved. In a commercial game, the developer will (hopefully) have made sure that the rules are unambiguous, but what about non-commercial games? A non-electronic and "folk" (i.e. non-commercial) game tends to drift towards becoming unambiguous, not in the sense that they don't require ingenuity to play, but in the sense that it doesn't require ingenuity to uphold the rules. This explains some of the affinity between games and computers - and the fact that a several thousand year old non-electronic game is easily implementable in a computer program: The drive towards unambiguity in games makes them ripe for implementation in a programming language.
+Games have rules. The rules of games have to be sufficiently well defined that they can either be programmed on a computer or sufficiently well defined that you do not have to argue about them every time you play. In fact, the playing of a non-electronic game is an activity that in itself involves trying to remove any unclearness in the game rules: If there is disagreement about the rules of the game, the game is stopped until the disagreement has been solved. In a commercial game, the developer will (hopefully) have made sure that the rules are unambiguous, but what about non-commercial games? A non-electronic and "folk" (i.e. non-commercial) game tends to drift towards becoming unambiguous, not in the sense that they don't require ingenuity to play, but in the sense that it doesn't require ingenuity to uphold the rules. This explains some of the affinity between games and computers - and the fact that a several thousand year old non-electronic game is easily implementable in a computer program: The drive towards unambiguity in games makes them ripe for implementation in a programming language.
 
 To borrow some concepts from computer science, the rules of any given game can be compared to a piece of software that then needs hardware to actually be played. In games, the hardware can be a computer, mechanical contraptions, the laws of physics, or even the human brain.
 
 2. Variable and quantifiable outcome
 For something to work as a game, the rules of the game must provide different possible outcomes. This is pretty straightforward, but for a game to work as a game activity, the game must also fit the skills of the player(s). Consider this game of tic-tac-toe:
-
 
 This is a general property of tic-tac-toe: If your opponent begins with the middle, you must always place your first piece in the corner, otherwise you will loose to a reasonably intelligent opponent.7 This incidentally explains why tic-tac-toe is a children's game, and this is where we find that there is a subjective aspect to games: As a child, tic-tac-toe remains interesting because you still find the choices mentally challenging. Once you figure out the principle, you will achieve a draw every time you play. Variable outcome depends on who plays them, i.e. if players always achieve a draw or if a master player plays his/her best against a beginner, it does not really work as a game activity.
 
@@ -329,10 +174,7 @@ But even so, all games have some officially sanctioned non-optional consequences
 
 A special issue regards professional sports. According to Roger Caillois, the professional player or athlete is working rather than playing (p.6). This quickly becomes rather counterintuitive since a contest such as a marathon may include professional athletes as well as amateurs who are running "for the fun of it". This would logically mean that the marathon is and isn't a game at the same time. A better description is to say that even professional players are playing a game, but in this specific game session, the consequences have been negotiated to be financial and career-determining. Perhaps the reason why we can discuss whether professional sports are games or not is that we associate the game rules with the context they are usually used in. We tend to not think of something as a game if we have only seen it performed without serious consequences. Hence, even though the rules governing the stock market or elections could be used for game purposes, we do not consider them games, and though soccer is played professionally, we consider it a game because we are also aware that it is being playing in non-professional settings.
 
-The game diagram
 In diagram form, all of this can be visualized as two circles as things considered games having all 6 features within the inner circle, borderline or game-like cases falling in the outer circle, and decidedly non-game cases falling outside the outer circle as well:
-
-The game model
 
 Beginning with the borderline cases: Pen and paper Role-playing games are not normal games because with a human game master, their rules are not fixed beyond discussion9. Open-ended simulations like Sim City fall outside because they have no explicit goals, i.e. no explicit value attached to the possible outcomes of the game, but what happens in the game is still attached to the player, and the player invests effort in playing Sim City.
 
@@ -340,7 +182,6 @@ Falling completely outside the set of games, free-form play has no rules; hypert
 
 Traffic shares most of the game features, namely rules (traffic laws), variable outcome (you either arrive or you don't arrive safely), value attached to outcome (arriving safely is better), player effort, and players attached to the outcome (you actually arrive or do not), but the consequences of traffic are not optional - moving in traffic always has real-life consequences. The same applies to the concept of noble war such as war waged respecting the Geneva Convention.
 
-Transmedial gaming
 The definition of games proposed here does not tie games to any specific medium or any specific set of props. Furthermore, we know that many games actually move between media: Card games are played on computers, sports continue to be a popular computer game genre, and computer games occasionally become board games. Since this to my knowledge has not been explored in any systematic way, we can take a cue from discussions of stories: Narratives can not be viewed independently, an sich, but only through a medium like oral storytelling, novels, and movies. But we can see that narratives exists since they can be translated from one medium to another:
 
 This transposability of the story is the strongest reason for arguing that narratives are indeed structures independent of any medium. (Chatman 1978, p.20)
@@ -352,7 +193,6 @@ The reason why the card game Hearts is transferable to a computer is that the co
 
 Chess qualifies as on of the most broadly implemented games, since chess is available as a board game, on computers, as well as being played blind, where the players keep track of the game state in their head. Sports are somewhat special in that the properties of the individual human body are part of the game state. This means that there is less of a clear distinction between the game state and the rest of the world, and that the rules are less clearly defined (hence the need for an umpire).11
 
-Game implementations and game adaptations
 Note that there are differences in the way that games move between media. Card games on computers should be considered implementations since it is possible to unambiguously map one-to-one correspondences between all the possible game states in the computer version and in the physical card game. Sports games on computers are better described as adaptations since much detail is lost on the level of the rules and game state since the physics model of the computer program is a simplification of the real world, and in the interface because the player's body is not part of the game state. Adapting soccer to computers is therefore a highly selective adaptation.
 
 Game media support games in three distinct ways:
@@ -362,14 +202,12 @@ Game state: What keeps track of the current game state.
 Interface: How detailed an influence the players have on the game state. For example, a simple yes/no choice is one bit, whereas in competitive sports, the detail of the influence is huge since the players themselves are part of the game state.
 The distinction between computation and game state is necessary in order to explain the differences between some of the game media mentioned here. In technical terms, the distinction between computation and game state corresponds to the low-level distinction in the computer between CPU (computation) and the RAM (memory):
 
-Conclusions
 While some writers have claimed that games are forever indefinable or ungraspable, I hope to have indicated that games do have something in common, that we can talk about the borders between games and what is not games, and that it makes sense to look at computer games as being the latest development in a history of games that spans millennia.
 
 The definition proposed here describes games mainly as real rule-based systems that players interact with in the real world. This is a markedly different description from another common one, namely that of describing games as fictive worlds. The relation between these two perspectives is something of an ongoing discussion in games, for game players, and for game designers. In theoretical terms, the question of fiction in games has been described in different, conflicting ways. Erving Goffman proposes a principle called rules of irrelevance, meaning that the specific shape of a piece in a game is not important. This goes against Crawford's emphasis on the safety on games and Caillois' mention of make-believe - in both cases, the fictive or make-believe aspect of games is considered important. The relation between rules and fiction in games is a huge subject of its own, but suffice to say that it's not an either/or question.
 
 Discussing the rules of games, we may have a nagging feeling that games contain a built-in contradiction: Since we would normally assume play to be a free-form activity devoid of constraints, it appears illogical that we would choose to limit our options by playing games with fixed rules. Why be limited when we can be free? The answer to this is basically that games provide context for actions: Moving an avatar is much more meaningful in a game environment than in an empty space; throwing a ball has more interesting implications on the playing field than off the playing field; a rush attack is only possible if there are rules specifying how attacks work; winning the game requires that the winning condition has been specified; without rules in chess, there are no checkmates, end games, or Sicilian openings. The rules of a game add meaning and enable actions by setting up differences between potential moves and events.
 
-After the classic game model
 While computer games mostly fall into the classic game model, they also modify and work with many of the conventions of classic games. We find that games have changed. So while we can talk about games as being a fairly well-defined form, computer games also modify the classic game model and the history of computer games is to a large extent is about breaking with this standard model of games:
 
 While computer games are just as rule-based as other games, they modify the classic game model in that it is now the computer that upholds the rules. This adds a lot of flexibility to computer games, allowing for much more complex rules; it frees the player(s) from having to enforce the rules, and it allows for games where the player does not know the rules from the outset.
@@ -388,18 +226,9 @@ Finally, the revolution in games that computers have provided is one of their st
 
 Can videogames be defined? The new field of games studies has generated three somewhat competing models of videogaming that characterize games as new forms of gaming, narratives, and interactive fictions. When treated as necessary and sufficient condition definitions, however, each of the three approaches fails to pick out all and only videogames. In this paper I argue that looking more closely at the formal qualities of definition helps to set out the range of definitional options open to the games theorist. A disjunctive definition of videogaming seems the most appropriate of these definitional options. The disjunctive definition I offer here is motivated by the observation that there is more than one characteristic way of being a videogame.
 
-Key Words
-definition, disjunctive definition, games, interactive fiction, narrative, videogames
-
-
-
-1. Introduction
-
 Videogames are now the topic of the nascent interdisciplinary field of games studies. As it stands, the field is a clutter of different ideas and methods with hardly any core agreement among theorists about what they are studying or how to study it. A number of competing theoretical models of games have been offered, the three most prominent being the narratological approach, the ludological approach, and games being conceived as a new type of interactive fiction. Typically, each of these theoretical positions proposes a feature to be characteristic of videogames. Such claims are not always as clear cut as we might expect of definitions because the theoretical models offered in the games literature often exist in hybrid forms, and difficult borderline cases are usually acknowledged. Indeed, the participants of the debate do not always see it as a definitional debate, in part, perhaps, because much of this material is located in the domain of critical theory where definitional exclusivity is not always seen as a virtue. Games scholar James Newman, though, makes the definitional nature of much of this theoretical literature explicit.[1]
 
 An analytic approach to the theory of videogames is well overdue, particularly one that is cognizant of how such definitional debates have taken place in other cultural domains. The field badly needs a definitional debate to be carried out in clear, unambiguous terms so that the range of theoretical options open to games scholars is made clear. On this definitional issue, games studies has much to learn from analytic aesthetics, as the concern with the definition of videogames shares a number of similarities with the definition of art debate. Treated as definitions, narratology, ludology, and interactive fiction theory are all prone to examples of videogames that lack the purported characteristic feature, or of items that have it but are nevertheless not videogames. Put in the classical terms, if proposed as conditions that are necessary and sufficient for an item to be a videogame, narratological, ludological, and interactive fiction theories all fail as proper definitions. In this paper I will argue that we may need to look more closely at the formal qualities of definitions, and the kinds of conditions they include, if we are to come to an accurate understanding of what videogames really are.
-
-2. The Theory of Videogames
 
 In the first part of this paper I will briefly run through the current theoretical positions and the obvious problems they face when treated as definitions in the classical mode. A point of terminology has to be made at this initial stage. Videogames are variously referred to as "computer games," "electronic games," and even "digital entertainments." These terms cannot be taken to be strictly synonymous: "computer game" is sometimes taken to refer to games on a personal computer; "electronic game" might also refer to toys; while "videogame" is sometimes used to refer exclusively to console games such as those on the X-Box 360 or Playstation 3. I will adopt "videogames" as the general term here because it is the term that dominates current usage, and because it has the virtue of referring to the visual aspect of games that seems crucial to their definition. My purpose here is more than just an attempt to provide a nominal definition of videogaming; it is also explanatory, in that I intend to justify the extension of the term.
 
@@ -427,8 +256,6 @@ I think that if one is careful in specifying exactly what it is that is interact
 
 A further objection to the idea that videogames are interactive fictions, and one that James Newman makes much of, is that much of the fictive activity involved in gaming is distinctly non-interactive.[20] For large stretches of many games one is merely viewing pre-rendered videos that fill out back-story or advance the narrative, but which the player has no ability to affect. And, of course, being an interactive fiction cannot be a sufficient condition of videogame-hood, as pen and paper role-playing, military or commercial flight simulators, and childhood games of pretense are all interactive fictions while not counting as videogames.
 
-3. Definition and Normativity in the Videogame Debate
-
 I think that the preceding section is enough to show that the theories of videogames that do exist within game studies would face significant difficulties if they were to be considered as proper definitions. It is another matter entirely to ask just why the games theories encounter these difficulties when so treated. One thing that became clear in the definition-of-art debate is that theorists of the arts were often guilty of picking out a property of art favored in their own time and claiming that property to be essential to the kind.[21] In this way definition often turned out to be disguised recommendation. Clive Bell's introduction of "significant form" in his famous theory of art would seem to be guilty of this; the art-historical context of his theory was a growing interest in formal structures in the increasingly abstract art of the early twentieth century.[22]
 
 It seems to me that although ludologists, narratologists, and others would claim to be characterizing the nature of games, there does seem to be a large normative component in their proposals and that this comprises the most significant problem with how the definitional debate concerning videogames has been conducted to date. Games theorists have all too often been guilty of implicit advocacy. There are clear cases in the games literature where the definitional and normative issues have become confused for each other. For example, in his discussion of the difficulties inherent in the definition of videogames and the possibility of a definition in terms of graphical or aesthetic qualities, Newman slips into normative mode when he claims that "even the most aesthetically advanced gameworlds can fail as videogames."[23] Newman does not seem to realise that this does not discount that games might still be defined by their graphical features-it merely shows that graphically brilliant games can be bad games. Definitions should stay silent on these normative issues so that we can count as games those which we do not happen to value as games.
@@ -442,8 +269,6 @@ Another explanation of the definitional biases in games studies amounts to the c
 A further normative motivation that I suspect is lurking here, especially in relation to narratology, is the desire for videogames to be taken seriously both as a form of media and a topic of study. One suspects that games theorists are a little insecure with the standing of games as a childish or geeky pursuit, and that search for serious narratives in videogaming might be seen as a prerequisite for taking games studies seriously. The games literature is filled with inflated estimations of the meanings of quite simple videogames. Consider as just one example Steven Poole's bizarre reading of Pac-Man as a "neo-Marxist parable of late capitalism"[26]. This is surely to credit a game with a narrative significance that it does not really have. A similar issue arises when it is questioned whether games are art or have the potential to become art. This question arises with unsurprising regularity in both the popular media and academic treatment of videogames. For example, Aaron Smuts has claimed that the primary question that analytic aesthetics should ask when concerning itself with videogames is whether or not they are art.[27]
 
 I think that it is a mistake to tie the worth of games studies to the presence in videogames of serious ideas, narratives, or art. This is especially the case if, as seems to have happened with some narratological approaches, videogames have to be shoehorned into an existing theoretical schema. The worth of games studies does not hinge on establishing games as being significant in this sense. There are many other reasons for why games are a worthwhile topic of study for the theorist of culture, not the least of which are their increasing dominance in popular culture and the persisting worries that many have concerning their negative effects on individuals and society. Furthermore, if we are not concerned to establish videogames as serious narratives or works of art, our eyes might be opened to the interesting features they do have, particularly in terms of gameplay, where it seems to me videogames are offering something creative and new.
-
-4. The Formal Qualities of Definition
 
 If the analysis of the earlier parts of this essay is correct, then treated as definitions each of the former theories fails to pick out all and only videogames. The properties of being a game, narrative, or fiction cannot be used as conditions in a simple necessary and sufficient condition definition of videogames. Where does this leave the games theorist with an interest in explaining how, or indeed if, games can be defined? Drawing again on the lessons learned in the definition of art debate, there are at least four responses that might be made here.
 
@@ -466,8 +291,6 @@ In this case intrinsic (or, indeed, relational) properties may be individually o
 Thus the fourth and final response is to conclude that videogames cannot be defined by a simple necessary and sufficient condition definition of videogames, but that this stems from the strict adherence to a narrow mode of definition. A disjunctive definition might be used to explain how, even though they fail to have a single set of necessary and sufficient properties, videogames can nevertheless be defined. There might just be more than one characteristic way of being a videogame. Indeed, this would be a way to reconcile the theoretical divergence of ludologists, narratologists, and interactive fiction games theorists, while retaining the valuable contribution these theorists do make to the understanding of videogames.
 
 In the face of the difficulties discussed in the first sections of this paper, the games theorist who wants to hold onto the prospect of discovering a definition of videogaming has at least three theoretical options: persisting with the intrinsic mode of definition; developing a definition using relational properties; or developing a disjunctive definition. Which of these responses to the definitional issue concerning videogames is most appropriate? I think the most productive way of assessing this question is to see what might be made of one of the options.
-
-5. A Disjunctive Definition of Videogames
 
 A disjunctive definition of videogames may be the most appropriate response. I will argue that such games can best be defined by providing a set of conditions, not all of which are individually necessary, but when combined in an appropriate way are sufficient for an artefact to be a videogame. Specifically, my proposal is as follows:
 
@@ -493,8 +316,6 @@ Even without a detailed explanation of interactive fiction, it is evident that i
 World exploring or world building games are those games that portray a fictional world, either through text, as in early text-based games, or, as is much more common in recent times, in a 3D graphical environment. When presenting a 3D graphical world, these are often called "sandbox" games. Though these games often do involve rules and objectives, they need not. A number of world building games are open-ended; as Juul notes, Simcity does not specify a clear goal. How the players conduct themselves-whether they aim for a vast functional metropolis or a city that they can subsequently destroy with a natural disaster-is up to the player. Newman calls this aspect of non-goal orientated gaming 'paidea.'[39] Grand Theft Auto, with its vast and replete fictional world, also encourages this kind of open-ended gaming, as does the similar fantasy-themed game The Elder Scrolls: Oblivion. In both games the gamer can spend his or her time exploring the cities and wildness areas and interacting with the locals. Some Massive Multiplayer Online Role Playing Games (MMORPGs) also lack quantifiable goals and outcomes, with fictional (and real) social activity being among the principal motivations for playing the game.
 
 Finally, a number of videogames are fictional insofar as they involve interactive narratives. I claimed earlier that narrative and fiction are not co-extensive terms, but I also noted that fictionality seems to be a prerequisite for genuinely interactive narrative. Some artefacts are videogames in virtue of allowing their players to contribute to an unfolding narrative. It is in this sense that the genre of interactive fiction, if employed in a digital visual medium principally for the purposes of entertainment-for example, a game like the already mentioned Zork-counts as a form of videogaming. One especially significant case of gaming narrative is the fantasy role-playing adventure and its orientation around the "quest": a transmedial gaming form that owes its existence to the documented historical convergence of computer and pen and paper role-playing games.[40]
-
-6. Potential Criticisms
 
 My claim here is that games can be best defined by a conjunction of two necessary conditions-the digital/visual medium condition and the entertainment condition-and a disjunction that summarizes how the former necessary condition instantiates the latter: rule-bound gameplay and interactive fiction. Finally in this paper, it is worthwhile rehearsing some of the difficulties that this definition might be susceptible to, both to defend and to clarify this disjunctive definition of videogames. Most obviously, examples of games that do not fit the definition, either because they lack one of the necessary conditions or both of the disjunctive conditions, would show the definition to be incomplete. Perhaps, in the case that the proposed counter-example failed to meet one of the disjunctive criteria, a further way in which digital visual entertainments could count as videogames could be used to supplement the definition. Indeed, this seems almost an inevitable prospect given that status of gaming as a developing cultural form. Thus, a related potential difficulty here is whether the disjunctive aspect of the definition, even if it presently does cover the features characteristic of videogames, will continue to do so. A definition can hardly be blamed for failing to predict the future course of a technological artefact. The sensible thing to do in such a case would be to broaden the extension of videogames and revise the intension of the definition to account for this substantive change. "Videogame" just is a historically contingent class, and any useful definition will have to acknowledge the potential of its future revision.
 
