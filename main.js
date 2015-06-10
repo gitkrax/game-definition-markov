@@ -2,6 +2,8 @@
 /*global RiTa, RiString, RiGrammar, RiMarkov, $*/
 
 var contentMarkov = new RiMarkov(4);
+var chapterMin = 3;
+var chapterMax = 5;
 
 function generateTitle() {
     $.getJSON("title.json", function (str) {
@@ -27,30 +29,38 @@ function generateAbstract() {
 // Generate the headers. Take 3-8 tokens, make them lowercase.
 // Replace special characters with a space and then make the first char uppercase.
 // Append to content.
-function generateHeader() {
-    var header = contentMarkov.generateTokens(RiTa.random(3, 8));
-    var stringHeader = header.toString().toLowerCase();
-    stringHeader = stringHeader.replace(/\(|\)|,|\./g, " ");
-    stringHeader = stringHeader.charAt(0).toUpperCase() + stringHeader.slice(1);
-    $('#content').append("<h2>" + stringHeader + "</h2>");
+function generateHeading() {
+    var heading = contentMarkov.generateTokens(RiTa.random(3, 8));
+    var stringHeading = heading.toString().toLowerCase();
+    stringHeading = stringHeading.replace(/\(|\)|,|\./g, " ");
+    stringHeading = stringHeading.charAt(0).toUpperCase() + stringHeading.slice(1);
+    return stringHeading;
+}
+
+function generateSentences(min, max) {
+    var sentences = contentMarkov.generateSentences(RiTa.random(min, max));
+    return sentences;
+}
+
+function generateChapter(heading, sentences) {
+    $('#content').append("<h2>" + heading + "</h2>");
+    $('#content').append(sentences.toString().replace(/,/g, " "));
 }
 
 function generateContent(str) {
     contentMarkov.loadText(str);
     if (contentMarkov.ready()) {
-        var chapterNum = RiTa.random(3, 10);
-        for (var i = 0; i < chapterNum; i++) {
+        var chapterNum = RiTa.random(chapterMin, chapterMax);
+        for (var i = 0; i <= chapterNum; i++) {
+            var heading;
+            var sentences;
             if (i === 0) {
-                $('#intro').append("Introduction");
+                heading = "Introduction";
             } else {
-                generateHeader();
+                heading = generateHeading();
             }
-            var sentences = contentMarkov.generateSentences(RiTa.random(5, 20));
-            // RiTa generates an array of sentences that end in a ',' and we need to strip that away
-            // Now we lose all commas, a smarter solution would only remove those that are
-            // on the borders of chains. For some reason trying to do that messed with the
-            // chain generation, so lets stay stupid for now.
-            $('#content').append(sentences.toString().replace(/,/g, " "));
+            sentences = generateSentences(3, 10);
+            generateChapter(heading, sentences);
         }
     }
 }
