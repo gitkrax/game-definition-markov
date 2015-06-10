@@ -31,7 +31,7 @@ function generateAbstract() {
 // Append to content.
 function generateHeading() {
     var heading = contentMarkov.generateTokens(RiTa.random(3, 8));
-    var stringHeading = heading.toString().toLowerCase();
+    var stringHeading = heading.join(" ").toLowerCase();
     stringHeading = stringHeading.replace(/\(|\)|,|\./g, " ");
     stringHeading = stringHeading.charAt(0).toUpperCase() + stringHeading.slice(1);
     return stringHeading;
@@ -44,7 +44,7 @@ function generateSentences(min, max) {
 
 function generateChapter(heading, sentences) {
     $('#content').append("<h2>" + heading + "</h2>");
-    $('#content').append(sentences.toString().replace(/,/g, " "));
+    $('#content').append(sentences.join(" "));
 }
 
 function generateContent(str) {
