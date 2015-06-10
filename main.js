@@ -3,7 +3,8 @@
 
 var contentMarkov = new RiMarkov(4);
 var chapterMin = 3;
-var chapterMax = 5;
+var chapterMax = 6;
+var referencesLength;
 
 function generateTitle() {
     $.getJSON("title.json", function (str) {
@@ -26,19 +27,29 @@ function generateAbstract() {
     });
 }
 
-// Generate the headers. Take 3-8 tokens, make them lowercase.
+// Generate the headers. Take 2-6 tokens, make them lowercase.
 // Replace special characters with a space and then make the first char uppercase.
 // Append to content.
 function generateHeading() {
-    var heading = contentMarkov.generateTokens(RiTa.random(3, 8));
+    var heading = contentMarkov.generateTokens(RiTa.random(2, 6));
     var stringHeading = heading.join(" ").toLowerCase();
     stringHeading = stringHeading.replace(/[^a-zA-Z\d\s]/g, " ");
     stringHeading = stringHeading.charAt(0).toUpperCase() + stringHeading.slice(1);
     return stringHeading;
 }
 
+function generateReference() {
+    return " [" + (Math.floor(Math.random() * referencesLength) + 1) + "].";
+}
+
 function generateSentences(min, max) {
     var sentences = contentMarkov.generateSentences(RiTa.random(min, max));
+    for (var i = 0; i < sentences.length; i++) {
+        if (Math.random() > 0.5)  {
+            var reference = generateReference();
+            sentences[i] = sentences[i].replace(".", reference);
+        }
+    }
     return sentences;
 }
 
@@ -59,7 +70,7 @@ function generateContent(str) {
             } else {
                 heading = generateHeading();
             }
-            sentences = generateSentences(3, 10);
+            sentences = generateSentences(5, 15);
             generateChapter(heading, sentences);
         }
     }
@@ -71,12 +82,22 @@ function generateReferences(references) {
        return lines.indexOf(elem) == pos;                 // only works if the lines are exact duplicates.
     });
     uniqueLines.sort(); // Sort into alphabetical order
+    referencesLength = uniqueLines.length;
     $.each(uniqueLines, function (index, value) {
         $('#references').append(index + 1 + ". " + value + "<br>"); // Write each reference and end with a line change
     });
 }
 
 function loadText() {
+
+    // Load references
+    $.get('references.txt', function (references) {
+        if (references !== null) {
+            generateReferences(references);
+        } else {
+            $('#references').text("References!");
+        }
+    });
 
     // Load main text
     // This is done with RiTa so we get a nice
@@ -91,14 +112,4 @@ function loadText() {
             $('#content').text("Corpus unavailable!");
         }
     });
-
-    // Load references
-    $.get('references.txt', function (references) {
-        if (references !== null) {
-            generateReferences(references);
-        } else {
-            $('#references').text("References!");
-        }
-    });
-
 }
