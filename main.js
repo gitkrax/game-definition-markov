@@ -32,7 +32,7 @@ function generateAbstract() {
 function generateHeading() {
     var heading = contentMarkov.generateTokens(RiTa.random(3, 8));
     var stringHeading = heading.join(" ").toLowerCase();
-    stringHeading = stringHeading.replace(/\(|\)|,|\./g, " ");
+    stringHeading = stringHeading.replace(/[^a-zA-Z\d\s]/g, " ");
     stringHeading = stringHeading.charAt(0).toUpperCase() + stringHeading.slice(1);
     return stringHeading;
 }
