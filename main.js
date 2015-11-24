@@ -105,7 +105,7 @@ function loadText() {
     RiTa.loadString("corpus.txt", function (str) {
         if (str !== null) {
             generateTitle();
-            generateAuthor();
+            // generateAuthor();
             generateAbstract();
             generateContent(str);
         } else {
