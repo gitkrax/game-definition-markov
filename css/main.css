@@ -96,18 +96,15 @@ textarea {
    ========================================================================== */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+#author {
+    font-style: italic;
+}
+#author a:link {
+    text-decoration: none;
+}
+#author a:hover {
+    color: darkgray;
+}
 
 
 

@@ -48,7 +48,7 @@ function generateSentences(min, max) {
 
 function generateChapter(heading, sentences) {
     $('#content').append("<h2>" + heading + "</h2>");
-    $('#content').append(sentences.join(" "));
+    $('#content').append("<p>" + sentences.join(" ") + "</p>");
 }
 
 function generateContent(str) {
@@ -75,9 +75,10 @@ function generateReferences(references) {
        return lines.indexOf(elem) == pos;                 // only works if the lines are exact duplicates.
     });
     uniqueLines.sort(); // Sort into alphabetical order
-    referencesLength = uniqueLines.length;
+    referencesLength = uniqueLines.length; // used in in-text citations
     $.each(uniqueLines, function (index, value) {
-        $('#references').append(index + 1 + ". " + value + "<br>"); // Write each reference and end with a line change
+        var citationNumber = index + 1;
+        $('#references').append("<p>" + citationNumber + ". " + value + "</p>"); // Write each reference with numbering
     });
 }
 
