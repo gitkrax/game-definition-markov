@@ -1,5 +1,9 @@
 {
-    "<start>": "Games <maybe> considered <difficulty> to define. This <article> <presents> a <adjective> definition of <games>.",
+    "<title>": "The <adjective> definition of <games>",
+    "<adjective>": "Perfect | Final | Ultimate",
+    "<games>": "Games | Playful Artefacts | Playable Systems",
+
+    "<abstract>": "Games <maybe> considered <difficulty> to define. This <article> <presents> a <adjective> definition of <games>.",
     "<presents>": "presents | argues for | shows",
     "<article>": "article | paper | essay",
     "<maybe>": "are often | may be | are usually",

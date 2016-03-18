@@ -6,18 +6,14 @@ var chapterMin = 3;
 var chapterMax = 6;
 var referencesLength;
 
-function generateTitle() {
-    $.getJSON("corpus/title.json", function (str) {
-        var titleContent = new RiGrammar(str).expand();
-        $('#title').text(titleContent);
-    });
+function generateTitle(grammar) {
+    var titleContent = new RiGrammar(grammar).expandFrom('<title>');
+    $('#title').text(titleContent);
 }
 
-function generateAbstract() {
-    $.getJSON("corpus/abstract.json", function (str) {
-        var abstractContent = new RiGrammar(str).expand();
-        $('#abstract').text(abstractContent);
-    });
+function generateAbstract(grammar) {
+    var abstractContent = new RiGrammar(grammar).expandFrom('<abstract>');
+    $('#abstract').text(abstractContent);
 }
 
 // Generate the headers. Take 2-6 tokens, make them lowercase.
@@ -96,13 +92,21 @@ function loadText() {
     // Load main text
     // This is done with RiTa so we get a nice
     // corpus to play with
-    RiTa.loadString("corpus/corpus.txt", function (str) {
-        if (str !== null) {
-            generateTitle();
-            generateAbstract();
-            generateContent(str);
+    RiTa.loadString("corpus/corpus.txt", function (corpus) {
+        if (corpus !== null) {
+            generateContent(corpus);
         } else {
             $('#content').text("Corpus unavailable!");
+        }
+    });
+
+    // Load grammar for title and abstract
+    $.getJSON("corpus/grammar.json", function (grammar) {
+        if (grammar !== null) {
+            generateTitle(grammar);
+            generateAbstract(grammar);
+        } else {
+            $('#title').text("Grammar unavailable!");
         }
     });
 }
