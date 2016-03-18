@@ -7,21 +7,14 @@ var chapterMax = 6;
 var referencesLength;
 
 function generateTitle() {
-    $.getJSON("title.json", function (str) {
+    $.getJSON("corpus/title.json", function (str) {
         var titleContent = new RiGrammar(str).expand();
         $('#title').text(titleContent);
     });
 }
 
-function generateAuthor() {
-    $.getJSON("author.json", function (str) {
-        var authorName = new RiGrammar(str).expand();
-        $('#author').text(authorName);
-    });
-}
-
 function generateAbstract() {
-    $.getJSON("abstract.json", function (str) {
+    $.getJSON("corpus/abstract.json", function (str) {
         var abstractContent = new RiGrammar(str).expand();
         $('#abstract').text(abstractContent);
     });
@@ -91,7 +84,7 @@ function generateReferences(references) {
 function loadText() {
 
     // Load references
-    $.get('references.txt', function (references) {
+    $.get('corpus/references.txt', function (references) {
         if (references !== null) {
             generateReferences(references);
         } else {
@@ -102,10 +95,9 @@ function loadText() {
     // Load main text
     // This is done with RiTa so we get a nice
     // corpus to play with
-    RiTa.loadString("corpus.txt", function (str) {
+    RiTa.loadString("corpus/corpus.txt", function (str) {
         if (str !== null) {
             generateTitle();
-            // generateAuthor();
             generateAbstract();
             generateContent(str);
         } else {
